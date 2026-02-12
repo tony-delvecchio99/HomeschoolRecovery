@@ -1,0 +1,47 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background: #ebe5d9;
+    width: 100%;
+}
+
+.quote-container {
+    text-align: justify;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;    
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: var(--font-size);
+    line-height: 1.2;
+}
+
+.lobby {
+    color: #000000;
+}
+
+.products {
+    color: #f5f0e8;
+}
+
+.quote-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Dark mode colors 
+@media (prefers-color-scheme: dark) {
+    html, body {
+        background: #1a1a1a;
+    }
+    
+    .lobby {
+        color: #666666;
+    }
+    
+    .products {
+        color: #ff6b6b;
+    }
+} */
